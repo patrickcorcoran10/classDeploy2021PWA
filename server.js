@@ -15,10 +15,10 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/classDeployPWA", {
-  useNewUrlParser: true,
-  useFindAndModify: false
-});
+// mongoose.connect("mongodb://localhost/classDeployPWA", {
+//   useNewUrlParser: true,
+//   useFindAndModify: false
+// });
 
 // connection change for deploy
 mongoose.connect(
